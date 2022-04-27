@@ -1,11 +1,18 @@
-import logo from './logo.svg';
+import boneco from './boneco.svg';
+import iconbalanca from './iconbalanca.png';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="App-header">
+        <img src={iconbalanca} className="App-iconbalanca" alt="iconbalanca" />
+      </div>
+
+      <body className="App-background">
+        <div className="App-body">
+        <img src={boneco} className="App-boneco" alt="boneco" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -15,9 +22,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
-      </header>
+        </div>
+        
+      </body>
     </div>
   );
 }
