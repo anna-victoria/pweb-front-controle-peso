@@ -5,28 +5,33 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <body className="App">
       <div className="App-header">
         <img src={iconbalanca} className="App-iconbalanca" alt="iconbalanca" />
+        <span className="text-big-header">Controle seu peso</span>
+        <span className="text-small-header">DashBoard</span>
+        <span className="text-small-header">Atualizar Dados</span>
       </div>
 
-      <body className="App-background">
+      <div className="App-background">
         <div className="App-body">
-        <img src={boneco} className="App-boneco" alt="boneco" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
+          <div className="App-div-left">
+            <img src={boneco} className="App-boneco" alt="boneco" />
+          </div>
+
+          <div className="App-div-right">
+            <p className="text-title">Insira seus dados !</p>
+            <p className="text-dados">Dados Pessoais</p>
+            <input className="box-nome"></input>
+            <br></br>
+            <input type="email" className="box-email"></input>
+            <p className="text-metas">Metas</p>
+          </div>
+        
         </div>
         
-      </body>
-    </div>
+      </div>
+    </body>
   );
 }
 
