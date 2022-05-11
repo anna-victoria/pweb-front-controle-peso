@@ -64,7 +64,6 @@
   margin-top: 119px;
   margin-bottom: 119px;
   margin-left: 140px;
-
   
 }
 
@@ -136,18 +135,16 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-.text-metas {
+.text-smalltext {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
-  /* identical to box height, or 133% */
-  
-  display: flex;
-  align-items: left;
+  /* identical to box height, or 171% */
+
   letter-spacing: -0.015em;
-  
+
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -160,7 +157,6 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   border-radius: 5px;
-  margin-bottom: 24px;
   
 }
  .box-email {
@@ -172,6 +168,83 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   border-radius: 5px;
-  
+  margin-top: 64px;
 
  }
+
+ .box-peso-inicial {
+    position: absolute;
+    width: 189.51px;
+    height: 40px;
+    margin-top: 125px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+ }
+
+.box-genero {
+  position: absolute;
+  width: 189.51px;
+  height: 40px;
+  margin-top: 125px;
+  margin-left: 208px;
+  
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+ .text-metas {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+  padding-top: 218px;
+  
+  display: flex;
+  align-items: left;
+  letter-spacing: -0.015em;
+  
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.box-smallbox {
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px; 
+  height: 40px;
+  width: 189.51px;
+}
+
+.meta {
+  display: grid;
+  grid-template-columns: 200px 200px;
+}
+
+.button-final {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  
+  background: #000000;
+  border-radius: 6px;
+
+  height: 40px;
+  width: 103.9px;
+  border-radius: 6px;
+  border: 40px;
+  
+}
+
+.div-final {
+  display: inline;
+  top: 710px;
+}

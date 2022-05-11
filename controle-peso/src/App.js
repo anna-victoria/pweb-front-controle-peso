@@ -1,6 +1,7 @@
 import boneco from './boneco.svg';
 import iconbalanca from './iconbalanca.png';
 
+
 import './App.css';
 
 function App() {
@@ -22,10 +23,26 @@ function App() {
           <div className="App-div-right">
             <p className="text-title">Insira seus dados !</p>
             <p className="text-dados">Dados Pessoais</p>
-            <input className="box-nome"></input>
-            <br></br>
-            <input type="email" className="box-email"></input>
+            <input className="box-nome" placeholder="Nome"></input>
+            <input type="email" className="box-email" placeholder="Email"></input>
+            <input className="box-peso-inicial" placeholder="Altura (cm)"></input>
+            <input className="box-genero" placeholder="Genero / Sexo"></input>
             <p className="text-metas">Metas</p>
+            <p className="text-smalltext">Peso inicial/atual</p>
+            <input className="box-smallbox"></input>
+            <div className="meta">
+              <p className="text-smalltext">Peso desejado</p>              
+              <p className="text-smalltext">Data para alcançar</p>
+            </div>
+            <div className="meta">
+            <input className="box-smallbox"></input>
+            <input className="box-smallbox"></input>
+            </div>
+            <div className="div-final">              
+              <p className="text-smalltext">Já inseriu seus dados? Clique Aqui!</p>     
+              <button className="button-final">Finalizar</button>       
+            </div>
+            
           </div>
         
         </div>
