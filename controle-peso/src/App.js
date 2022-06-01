@@ -28,7 +28,7 @@ function App() {
             <input className="box-peso-inicial" placeholder="Altura (cm)"></input>
             <input className="box-genero" placeholder="Genero / Sexo"></input>
             <p className="text-metas">Metas</p>
-            <p className="text-smalltext">Peso inicial/atual</p>
+            <p className="text-smalltext">Peso inicial\atual</p>
             <input className="box-smallbox"></input>
             <div className="meta">
               <p className="text-smalltext">Peso desejado</p>              
@@ -36,11 +36,11 @@ function App() {
             </div>
             <div className="meta">
             <input className="box-smallbox"></input>
-            <input className="box-smallbox"></input>
+            <input type="date" className="box-smallbox"></input>
             </div>
-            <div className="div-final">              
-              <p className="text-smalltext">Já inseriu seus dados? Clique Aqui!</p>     
-              <button className="button-final">Finalizar</button>       
+            <div className="div-final">                  
+              <button className="button-final">Finalizar</button>    
+              <p className="text-smalltext">Já inseriu seus dados? Clique Aqui!</p>   
             </div>
             
           </div>

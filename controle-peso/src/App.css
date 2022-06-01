@@ -239,12 +239,12 @@
 
   height: 40px;
   width: 103.9px;
-  border-radius: 6px;
-  border: 40px;
-  
+
+  margin-right: 5%;
 }
 
 .div-final {
-  display: inline;
+  display: flex;
   top: 710px;
+  padding-top: 25px;
 }
