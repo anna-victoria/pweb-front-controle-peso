@@ -1,5 +1,6 @@
 import boneco from './boneco.svg';
 import Header from '../../components/header/header';
+import { Link } from "react-router-dom";
 
 import './home.css';
 
@@ -37,10 +38,11 @@ function Home() {
                     <input className="box-smallbox"></input>
                     <input type="date" className="box-smallbox"></input>
                 </div>
-                
+
             <div className="div-final">                  
-              <button className="button-final">Finalizar</button>    
-              <p className="text-smalltext">Já inseriu seus dados? Clique Aqui!</p>   
+              <button className="button-final">Finalizar</button>   
+              <center><Link to="/login" className="text-smalltext">Já inseriu seus dados? Clique Aqui!</Link></center> 
+              {/* <p className="text-smalltext">Já inseriu seus dados? Clique Aqui!</p>    */}
             </div>
             
           </div>
