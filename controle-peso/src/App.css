@@ -49,7 +49,8 @@
   left: 140px;
   top: 17px;
   border-radius: 0px;
-
+  padding-left: 140px;
+  padding-right: 10px;
 }
 
 .App-boneco {
@@ -60,7 +61,6 @@
 .App-div-right {
   font-family: 'Montserrat', sans-serif;
   text-align: left;
-  background-color: rgb(86, 137, 179);
   margin-top: 119px;
   margin-bottom: 119px;
   margin-left: 140px;
@@ -69,7 +69,6 @@
 
 .App-div-left {
   font-family: 'Montserrat', sans-serif;
-  background-color: palegreen;
   position: static;
   margin-top: 119px;
   margin-bottom: 119px;
@@ -95,6 +94,8 @@
   letter-spacing: -0.015em;
 
   color: #FFFFFF;
+
+  padding-right: 57%;
 }
 
 .text-small-header {
@@ -109,6 +110,9 @@
   letter-spacing: -0.015em;
   
   color: #FFFFFF;
+
+  padding-left: 10px;
+
 }
 
 .text-title {

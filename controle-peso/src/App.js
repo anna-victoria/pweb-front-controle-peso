@@ -1,17 +1,21 @@
 import boneco from './boneco.svg';
 import iconbalanca from './iconbalanca.png';
 
+import Header from './components/header/header.js';
 
 import './App.css';
 
 function App() {
   return (
     <body className="App">
-      <div className="App-header">
+      {/* <div className="App-header">
         <img src={iconbalanca} className="App-iconbalanca" alt="iconbalanca" />
         <span className="text-big-header">Controle seu peso</span>
         <span className="text-small-header">DashBoard</span>
         <span className="text-small-header">Atualizar Dados</span>
+      </div> */}
+      <div>
+        <Header />
       </div>
 
       <div className="App-background">
