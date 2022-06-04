@@ -1,0 +1,254 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #000000;
+    width: fit-parent;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  .App-body {
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    width: 1377px;
+    height: 876px;
+    left: 140px;
+    top: 108px;
+    bottom: 108px;
+    color: #000000;
+  }
+  
+  .App-background {
+    background-color: #E5E5E5;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .App-iconbalanca {
+    height: 25px;
+    width: 25px;
+    left: 140px;
+    top: 17px;
+    border-radius: 0px;
+    padding-left: 140px;
+    padding-right: 10px;
+  }
+  
+  .App-boneco {
+    width: 539px;
+    height: 638px;
+  }
+  
+  .App-div-right {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-top: 119px;
+    margin-bottom: 119px;
+    margin-left: 140px;
+    
+  }
+  
+  .App-div-left {
+    font-family: 'Montserrat', sans-serif;
+    position: static;
+    margin-top: 119px;
+    margin-bottom: 119px;
+    margin-left: 140px;
+      
+  }
+  
+  .text-big-header {
+    position: flex;
+    left: 10.56%;
+    right: 76.16%;
+    top: 33.33%;
+    bottom: 25%;
+  
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+  
+    color: #FFFFFF;
+  
+    padding-right: 57%;
+  }
+  
+  .text-small-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+    
+    color: #FFFFFF;
+  
+    padding-left: 10px;
+  
+  }
+  
+  .text-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.015em;
+    color: #000000;
+  }
+  
+  .text-dados {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    align-items: left;
+    letter-spacing: -0.015em;
+    
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .text-smalltext {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+  
+    letter-spacing: -0.015em;
+  
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .box-nome {
+    position: absolute;
+    width: 399px;
+    height: 40px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+  }
+   .box-email {
+    position: absolute;
+    width: 399px;
+    height: 40px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 64px;
+  
+   }
+  
+   .box-peso-inicial {
+      position: absolute;
+      width: 189.51px;
+      height: 40px;
+      margin-top: 125px;
+      
+      background: #FFFFFF;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      box-sizing: border-box;
+      border-radius: 5px;
+   }
+  
+  .box-genero {
+    position: absolute;
+    width: 189.51px;
+    height: 40px;
+    margin-top: 125px;
+    margin-left: 208px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+   .text-metas {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    padding-top: 218px;
+    
+    display: flex;
+    align-items: left;
+    letter-spacing: -0.015em;
+    
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .box-smallbox {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px; 
+    height: 40px;
+    width: 189.51px;
+  }
+  
+  .meta {
+    display: grid;
+    grid-template-columns: 200px 200px;
+  }
+  
+  .button-final {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+    
+    background: #000000;
+    border-radius: 6px;
+  
+    height: 40px;
+    width: 103.9px;
+  
+    margin-right: 5%;
+  }
+  
+  .div-final {
+    display: flex;
+    top: 710px;
+    padding-top: 25px;
+  }

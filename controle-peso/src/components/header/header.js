@@ -11,8 +11,8 @@ const Header = function () {
             <img src={iconbalanca} className="App-iconbalanca" alt="iconbalanca" />
             {/* <span className="text-big-header">Controle seu peso</span> */}
             <Link to="/" className="text-big-header" style={{ textDecoration: 'none'}}>Controle seu peso</Link>
-            <Link to="/" className="text-small-header" style={{ textDecoration: 'none'}}>DashBoard</Link>
-            <Link to="/" className="text-small-header" style={{ textDecoration: 'none'}}>Atualizar Dados</Link>
+            <Link to="/dashboard" className="text-small-header" style={{ textDecoration: 'none'}}>DashBoard</Link>
+            <Link to="/attdados" className="text-small-header" style={{ textDecoration: 'none'}}>Atualizar Dados</Link>
             {/* <span className="text-small-header">DashBoard</span>
             <span className="text-small-header">Atualizar Dados</span> */}
             

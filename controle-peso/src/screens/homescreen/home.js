@@ -25,7 +25,12 @@ function Home() {
             <input className="box-nome" placeholder="Nome"></input>
             <input type="email" className="box-email" placeholder="Email"></input>
             <input className="box-peso-inicial" placeholder="Altura (cm)"></input>
-            <input className="box-genero" placeholder="Genero / Sexo"></input>
+            <select className='box-genero' name="genero_nascimento" id='genero_nascimento'>
+            <optgroup label="Genero de nascimento">
+                <option value="feminino">Feminino</option>
+                <option value="masculino">Masculino</option>  
+            </optgroup>
+            </select>
             <p className="text-metas">Metas</p>
             <p className="text-smalltext">Peso inicial\atual</p>
             <input className="box-smallbox"></input>
@@ -40,7 +45,7 @@ function Home() {
                 </div>
 
             <div className="div-final">                  
-              <button className="button-final">Finalizar</button>   
+              <button className="button-final"><Link to='/login' className='text-link' style={{ textDecoration: 'none', color: 'white'}}>Finalizar</Link></button>   
               <center><Link to="/login" className="text-smalltext">Já inseriu seus dados? Clique Aqui!</Link></center> 
               {/* <p className="text-smalltext">Já inseriu seus dados? Clique Aqui!</p>    */}
             </div>

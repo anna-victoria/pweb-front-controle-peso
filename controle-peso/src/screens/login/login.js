@@ -26,7 +26,7 @@ function Home() {
             <br></br>
             <input className='caixa-email' placeholder='Email'></input>
             <div className='div-final'>
-                <button className='button-acesso'>Acessar</button>
+                <button className='button-acesso'><Link to='/dashboard' className='text-link' style={{ textDecoration: 'none', color: 'white'}}>Acessar</Link></button>
                 <center>
                     <Link to='/' className='text-link' style={{ textDecoration: 'none'}}>Não inseriu seus dados? Clique Aqui!</Link>
                 </center>
