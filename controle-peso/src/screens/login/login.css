@@ -1,0 +1,124 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: #000000;
+    width: fit-parent;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFFFFF;
+  }
+  
+  .App-body {
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    width: 1377px;
+    height: 876px;
+    left: 140px;
+    top: 108px;
+    bottom: 108px;
+    color: #000000;
+  }
+  
+  .App-background {
+    background-color: #E5E5E5;
+    min-height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .text1 {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    padding-top: 30%;
+  }
+
+  .text2 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+  }
+
+  .caixa-email {
+    box-sizing: border-box;
+
+    width: 399px;
+    height: 40px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+  }
+
+  .button-acesso {
+    color: white;
+    background: #000000;
+    border-radius: 6px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-right: 25px;
+  }
+
+  .text-link {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.015em;
+    text-align: center;
+
+  }
+  .App-boneco {
+    width: 539px;
+    height: 638px;
+  }
+  
+  .App-div-right {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    margin-top: 119px;
+    margin-bottom: 119px;
+    margin-left: 140px;
+
+  }
+  
+  .App-div-left {
+    font-family: 'Montserrat', sans-serif;
+    position: static;
+    margin-top: 119px;
+    margin-bottom: 119px;
+    margin-left: 140px;
+  }
+  
+  .div-final {
+    display: flex;
+    top: 710px;
+    padding-top: 25px;
+  }
