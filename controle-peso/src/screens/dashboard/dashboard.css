@@ -22,7 +22,7 @@
   .App-body {
     background-color: #FFFFFF;
     display: flex;
-    position: absolute;
+
     width: 1377px;
     height: 876px;
     left: 140px;
@@ -189,7 +189,7 @@
    }
   
   .box-genero {
-    position: absolute;
+
     width: 189.51px;
     height: 40px;
     margin-top: 125px;
@@ -230,25 +230,300 @@
     grid-template-columns: 200px 200px;
   }
   
-  .button-final {
+  .button-final1 {
+
+    height: 40px;
+    width: 102px;
+    left: 0px;
+    top: 0px;
+    border-radius: 6px;
+    background: #000000;
+    border-radius: 6px;
+
+    color: #FFFFFF;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    color: white;
-    
-    background: #000000;
-    border-radius: 6px;
-  
-    height: 40px;
-    width: 103.9px;
-  
-    margin-right: 5%;
+    letter-spacing: -0.015em;
   }
   
-  .div-final {
+  .div-div {
+    background: #FFFFFF;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 1377px;
+    border-radius: 10px;
+  }
+
+  .div-dentro {
+    width: fit-content;
     display: flex;
-    top: 710px;
-    padding-top: 25px;
+    margin: auto;
+  }
+
+  .div-dentro-side {
+    padding-left: 140px;
+    padding-top: 44px;
+    width: fit-content;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;   
+  }
+
+  .text-subs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+
+    color: #000000; 
+  }
+  
+  .circulo {
+    margin: 48px;;
+    height: 236px;
+    width: 236px;
+    left: 378px;
+    top: 267px;
+    border-radius: 118px;
+    background: #c698cc;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.015em;
+    text-align: center;
+   
+  }
+
+  .circulo-dentro {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .circulo-text1{
+    height: 28px;
+    width: 119px;
+    left: 436px;
+    top: 328px;
+    border-radius: nullpx;
+      
+  }
+
+  .circulo-text2{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-top: 8px;
+     
+  }
+
+  .circulo-text3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+  }
+  
+
+  .titles {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    letter-spacing: -0.02em;
+    margin-top: 16px;
+    margin-left: 16px;
+  
+    color: #000000;
+  
+    padding-right: 57%;
+  }
+
+  .div-sub {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .div-input {
+    display: flex;
+    align-items: left;
+    margin-top: 8px;
+  }
+
+  .subtitles{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+  }
+
+  .minortext {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+
+  }
+
+  .img-balanca{
+    height: 106px;
+    width: 106px;
+    border-radius: 0px;
+    margin-bottom: 80px;
+    margin-right: 25px;
+  }
+
+  .input-peso {
+    box-sizing: border-box;
+
+    margin-right: 10px;
+    width: 124px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;           
+  }
+
+  .cinza {
+    margin: 5px;
+    width: 1100px;
+    height: 28px;
+    background: #C4C4C4;
+    border-radius: 15px;
+  }
+
+  .rosa {
+    width: 75%;
+    height: 28px;
+    background: #f191dd;
+    border-radius: 15px;
+  }
+
+  .azul {
+    width: 50%;
+    height: 28px;
+    background: #00b0ff;
+    border-radius: 15px;
+  }
+
+  .moni {
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 139px;
+    padding-bottom: 80px;
+  }
+
+  .moni-div {
+    display: flex;
+    padding-top: 5px;
+  }
+
+  .bolinha {
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    background: #000000;
+    margin-left: 60%;
+  }
+
+  .moni-div-text {
+
+    display: flex;
+    flex-direction: row;
+    column-gap: 230px;
+    width: 1098px;
+    margin: auto;
+  }
+
+  .verdin {
+    width: 366px;
+    height: 54px;
+    background: #6AE468;
+  }
+
+  .red {
+    width: 366px;
+    height: 54px;
+    background: #F93838;
+    border-radius: 0px 15px 15px 0px;
+  }
+
+  .amarelo {
+    width: 366px;
+    height: 54px;
+    background: #F3ED5E;
+    border-radius: 15px 0px 0px 15px;
+  }
+
+  .comp {
+    display: flex;
+    column-gap: 50px;
+    padding-left: 140px;
+    padding-top: 44px;
+    padding-right: 140px;
+    padding-bottom: 80px;
+  }
+
+  .quadradocomp {
+    width: 236px;
+    height: 190px;
+    background: #c698cc;
+    border-radius: 15px;
+    padding-top: 64px;
+    padding-bottom: -64px;
+  }
+
+  .quadrado-text2{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.015em;
+
+    color: #000000;
+  }
+
+  .quadrado-text1{
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.02em;
+     
+  }
+
+  .quadrado-text3{
+    font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+  }
+  
+  .historico{
+    height: 238px;
   }

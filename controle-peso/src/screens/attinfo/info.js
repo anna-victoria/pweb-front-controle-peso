@@ -15,12 +15,12 @@ function Info() {
     
       <div className="App-background">
         <div className="App-body">
-          <div className="App-div-left">
+          <div className="App-div-left1">
             <img src={boneco} className="App-boneco" alt="boneco" />
           </div>
 
           <div className="App-div-right">
-            <p className="text-title">Insira seus dados !</p>
+            <p className="text-title">Atualizar dados !</p>
             <p className="text-dados">Dados Pessoais</p>
             <input className="box-nome" placeholder="Nome"></input>
             <input type="email" className="box-email" placeholder="Email"></input>
